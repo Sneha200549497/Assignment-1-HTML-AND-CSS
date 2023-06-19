@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* This CSS is used to style movie posters image */
+img {
+    width: 35vw;
+    height: 100vh;
+    display: block;
+    margin: auto;
+}
+
+/* This CSS class is used to align punch line */
+.flex-container {
+    font-family: 'Saira Stencil One';
+    font-size: 50px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    position: absolute;
+    top: 1%;
+    padding: 20px;
+    margin: 0 32%;
+}
+
+/* This CSS class is used to give flexbox item size and margin */
+.flex-item {
+    width: 200px;
+    height: 50px;
+    margin: 5px;
+    color: white;
+}
+
+/* This CSS class is used to make flexbox for adjusting the first-name and last-name of actor and actress */
+.box {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    position: absolute;
+    bottom: 12%;
+    padding: 20px;
+    margin: 0 50%;
+    color: rgb(199, 197, 197);
+}
+
+/* This CSS class is used to align items in center and for spacing*/
+.boxitem {
+    margin: 16px;
+    text-align: center;
+}
+
+/* This CSS class is used to make last-name fonts bold and set the size of fonts */
+.lastname {
+    font-size: 26px;
+    font-weight: 600;
+
+}
+
+/* This CSS class is used to style title of a film*/
+.container {
+    font-family: 'Saira Stencil One';
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    position: absolute;
+    bottom: 6%;
+    padding: 20px;
+    margin: 0 38%;
+}
+
+/* This CSS class is used to give width and height of flexbox to set items */
+.fitem {
+    width: auto;
+    height: 50px;
+    margin: 5px;
+}
+
+/* This CSS id is used to style font size and color */
+#item1 {
+    font-size: 40px;
+    color: #C0C0C0;
+}
+
+/* This CSS id is used to style 2nd word of title */
+#item2 {
+    font-size: 30px;
+    color: #bab9b9;
+    padding-top: 12px;
+    position: relative;
+    top: 11.5px;
+}
+
+/* This CSS id is used to style 3rd word of title */
+#item3 {
+    font-size: 40px;
+    color: rgb(214, 15, 15);
+}
+
+/* This CSS class is used to style some details of movie */
+.text {
+    font-family: 'Exo 2', sans-serif;
+    display: flex;
+    position: absolute;
+    bottom: 5%;
+    margin: 0 32% 0 40%;
+}
+
+.styling1 {
+    font-size: 9px;
+    color: rgb(61, 76, 61);
+}
+
+.styling2 {
+    font-size: 14px;
+    color: white;
+}
+
+/* This CSS class is used to adjust link of movie trailer */
+footer {
+    font-family: 'Exo 2', sans-serif;
+    display: flex;
+    position: absolute;
+    bottom: 1%;
+    margin: 0 20% 0 53%;
+    font-size: 18px;
+    color: white;
+}
+
+footer>p>span {
+    font-family: 'Orbitron', sans-serif;
+}
+
+/* This CSS id is used to style link of movie trailer */
+#link {
+    text-align: center;
+    position: relative;
+    top: 38px;
+    font-size: 16px;
+    right: 121px;
+}
+
+footer>div>a {
+    color: red;
+}
